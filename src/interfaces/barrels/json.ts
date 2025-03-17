@@ -1,5 +1,3 @@
-import BaseInterface from './base';
-
-export default interface JsonInterface extends BaseInterface {
+export interface JsonBarrelInterface {
     
 }

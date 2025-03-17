@@ -1,4 +1,4 @@
-export default interface DatasourceInterface {
+export interface DatasourceBarrelInterface {
 
     type: string; 
     host: string; 

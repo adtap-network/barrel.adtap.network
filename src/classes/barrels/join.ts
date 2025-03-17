@@ -1,7 +1,7 @@
 import Barrel from '../barrel';
-import JoinInterface from '../interfaces/join';
+import { JoinBarrelInterface } from '../../interfaces/barrels/join';
 
-export default class JoinBarrel extends Barrel implements JoinInterface {
+export default class JoinBarrel extends Barrel implements JoinBarrelInterface {
 
     table: string;
     alias: string;

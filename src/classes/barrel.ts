@@ -1,4 +1,4 @@
-import Hops from './hops';
+import { Malt } from 'adtap-network-malt';
 import fs, { constants } from 'fs';
 import path from 'path';
 import os, { networkInterfaces } from 'os';
@@ -7,7 +7,7 @@ import sharp from 'sharp';
 import { access } from 'fs/promises';
 import QRCode from 'qrcode';
 
-export default class Barrel extends Hops {
+export default class Barrel extends Malt {
 
     constructor(o: {[key: string]: any}) {
         super(o);
@@ -56,7 +56,7 @@ export default class Barrel extends Hops {
         return currentDir;
     }
 
-    getProjectFolder(): string { return path.basename(this.root); }
+    getProjectFolder(): string { return path.basename(this.getProjectRoot()); }
 
     getRequestBody(): Promise<Readable> {
         return new Promise((resolve, reject) => {

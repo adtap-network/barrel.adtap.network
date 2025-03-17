@@ -1,6 +1,6 @@
-import JoinInterface from './join';
+import { JoinBarrelInterface } from './join';
 
-export default interface ColumnsInterface {
+export interface ColumnsBarrelInterface {
     select: string[];
     insert: string[];
     update: string[];
@@ -25,5 +25,5 @@ export default interface ColumnsInterface {
     unlike: string;
     unequal: string;
     autosort: boolean;
-    joins: JoinInterface[];
+    joins: JoinBarrelInterface[];
 }

@@ -1,4 +1,4 @@
-export default interface MailerInterface {
+export interface MailerBarrelInterface {
 
     username: string; 
     hash: string;

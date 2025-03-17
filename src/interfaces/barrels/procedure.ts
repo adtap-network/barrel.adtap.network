@@ -1,4 +1,4 @@
-export default interface ProcedureInterface {
+export interface ProcedureBarrelInterface {
 
     get: {[key: string]: any};
     search: {[key: string]: any};

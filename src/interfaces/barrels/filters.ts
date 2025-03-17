@@ -1,6 +1,4 @@
-import EarthInterface from './earth';
-
-export default interface FiltersInterface extends EarthInterface {
+export interface FiltersBarrelInterface {
    
     columnlist: string[];
     currentrow: number;

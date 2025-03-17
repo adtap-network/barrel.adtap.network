@@ -1,4 +1,4 @@
-export default interface JoinInterface {
+export interface JoinBarrelInterface {
 
     table: string;
     alias: string;

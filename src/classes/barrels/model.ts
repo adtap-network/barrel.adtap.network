@@ -1,18 +1,17 @@
 import Barrel from '../barrel';
-import ColumnsInterface from '../interfaces/columns';
-import EarthInterface from '../interfaces/earth';
-import ModelInterface from '../interfaces/model'; 
-import RowInterface from '../interfaces/row';
+import { ColumnsBarrelInterface } from '../../interfaces/barrels/columns';
+import { ModelBarrelInterface } from '../../interfaces/barrels/model'; 
+import { RowBarrelInterface } from '../../interfaces/barrels/row';
 
-export default class ModelBarrel extends Barrel implements ModelInterface {
+export default class ModelBarrel extends Barrel implements ModelBarrelInterface {
     
     table: string;
     alias: string;
-    cols: ColumnsInterface;
-    row: RowInterface;
-    aliases: EarthInterface;
+    cols: ColumnsBarrelInterface;
+    row: RowBarrelInterface;
+    aliases: RowBarrelInterface;
 
-    constructor(table: string, cols: ColumnsInterface, row: RowInterface, aliases: {[key: string]: string}) {
+    constructor(table: string, cols: ColumnsBarrelInterface, row: RowBarrelInterface, aliases: {[key: string]: string}) {
         super({})
         this.table = table;
         this.alias = "a";

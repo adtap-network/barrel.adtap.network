@@ -1,8 +1,8 @@
 import Barrel from '../barrel';
-import ColumnsInterface from '../interfaces/columns';
-import JoinInterface from '../interfaces/join';
+import { ColumnsBarrelInterface } from '../../interfaces/barrels/columns'
+import { JoinBarrelInterface } from '../../interfaces/barrels/join';
 
-export default class ColumnsBarrel extends Barrel implements ColumnsInterface {
+export default class ColumnsBarrel extends Barrel implements ColumnsBarrelInterface {
 
     select: string[]                        = [];
     insert: string[]                        = [];
@@ -29,7 +29,7 @@ export default class ColumnsBarrel extends Barrel implements ColumnsInterface {
     nokey: string                           = '';
     sortkey: string                         = '';
     autosort: boolean                       = false;
-    joins: JoinInterface[]                  = [];
+    joins: JoinBarrelInterface[]            = [];
 
     constructor() { super({}); }    
 }

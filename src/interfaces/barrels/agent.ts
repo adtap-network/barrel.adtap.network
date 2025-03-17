@@ -1,4 +1,4 @@
-export default interface AgentInterface {
+export interface AgentBarrelInterface {
 
     intervals: {[key: string]: number};
 

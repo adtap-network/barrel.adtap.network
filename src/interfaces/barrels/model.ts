@@ -1,11 +1,10 @@
-import ColumnsInterface from './columns';
-import EarthInterface from '../../../../kegs.adtap.network/src/interfaces/earth';
-import RowInterface from './row';
+import { ColumnsBarrelInterface } from './columns';
+import { RowBarrelInterface } from './row';
 
-export default interface ModelInterface {
+export interface ModelBarrelInterface {
     table: string;
     alias: string;
-    cols: ColumnsInterface;
-    row: RowInterface;
-    aliases: EarthInterface;
+    cols: ColumnsBarrelInterface;
+    row: RowBarrelInterface;
+    aliases: RowBarrelInterface;
 }

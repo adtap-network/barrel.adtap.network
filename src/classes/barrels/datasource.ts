@@ -1,7 +1,7 @@
 import Barrel from '../barrel';
-import DatasourceInterface from '../interfaces/datasource';
+import { DatasourceBarrelInterface } from '../../interfaces/barrels/datasource';
 
-export default class DatasourceBarrel extends Barrel implements DatasourceInterface {
+export default class DatasourceBarrel extends Barrel implements DatasourceBarrelInterface {
 
     type: string; 
     host: string; 

@@ -1,4 +1,4 @@
-export default interface KeysInterface {
+export interface KeysBarrelInterface {
 
     shared: string; 
     secret: string; 

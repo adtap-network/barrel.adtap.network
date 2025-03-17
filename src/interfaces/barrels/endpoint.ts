@@ -1,6 +1,4 @@
-import BaseInterface from './base';
-
-export default interface EndpointInterface extends BaseInterface {
+export interface EndPointBarrelInterface {
 
     id: string;
     title: string;

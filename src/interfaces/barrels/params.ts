@@ -1,4 +1,4 @@
-export default interface ParamsInterface {
+export interface ParamsBarrelInterface {
 
     action: string;
     mode: string;

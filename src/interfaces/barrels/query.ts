@@ -1,11 +1,11 @@
-import FiltersInterface from './filters';
+import { FiltersBarrelInterface } from './filters';
 
-export default interface QueryInterface {
+export interface QueryBarrelInterface {
 
     row: {[key: string]: any};
     rows: {[key: string]: any}[];
     recordcount: number;
-    filters: FiltersInterface;
+    filters: FiltersBarrelInterface;
     sql: string;
     menus: {[key: string]: any};
     columns: {[key: string]: any}[];

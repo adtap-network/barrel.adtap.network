@@ -1,4 +1,4 @@
-export default interface PathsInterface {
+export interface PathsBarrelInterface {
 
     htdocs:	string;
     volume:	string;
