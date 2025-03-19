@@ -1,1 +1,0 @@
-{"version":3,"file":"mailer.d.ts","sourceRoot":"","sources":["../../../src/interfaces/barrels/mailer.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,qBAAqB;IAElC,QAAQ,EAAE,MAAM,CAAC;IACjB,IAAI,EAAE,MAAM,CAAC;IACb,QAAQ,EAAE,MAAM,CAAC;IACjB,IAAI,EAAE,MAAM,CAAC;IACb,IAAI,EAAE,MAAM,CAAC;IACb,MAAM,EAAE,MAAM,CAAC;IACf,IAAI,EAAE,MAAM,CAAC;IACb,OAAO,EAAE,MAAM,CAAC;CAEnB"}

@@ -1,1 +1,0 @@
-{"version":3,"file":"procedure.d.ts","sourceRoot":"","sources":["../../../src/interfaces/barrels/procedure.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,wBAAwB;IAErC,GAAG,EAAE;QAAC,CAAC,GAAG,EAAE,MAAM,GAAG,GAAG,CAAA;KAAC,CAAC;IAC1B,MAAM,EAAE;QAAC,CAAC,GAAG,EAAE,MAAM,GAAG,GAAG,CAAA;KAAC,CAAC;CAEhC"}
